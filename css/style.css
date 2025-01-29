@@ -318,7 +318,7 @@ a{
   height: 300px;
 }
 .sec3 .back{
-    background-image: url("../images/item7.jpg");
+    background-image: url(../images/item7.jpg);
     background-size: cover;
     z-index: 1;
     opacity: 0;
@@ -468,7 +468,7 @@ del{
   transform: translate(0%,-50%);
 }
 .sec5 .back{
-  background-image: url("../images/down-img.jpg");
+  background-image: url(../images/down-img.jpg);
   background-size: cover;
   z-index: 1;
   opacity: 0;
