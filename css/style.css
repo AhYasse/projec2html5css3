@@ -106,9 +106,30 @@ a{
     font-size: 20px;
   }
 .li-nav li:hover{
-    border: 0.5px inset red;
-    transition: all 0.2s;
     color: red;
+    animation-name: border;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes border {
+    0%{
+      border-top: 1px groove red;
+    }
+    25%{
+      border-bottom: 1px groove red;
+      animation-delay: .9s;
+    }
+    50%{
+      border-right: 1px groove red;
+      animation-delay: .8s;
+    }
+    75%{
+      border-left: 1px groove red;
+      animation-delay: .7s;
+    }
+    100%{
+      border: 1px groove red;
+    }
   }
 .active-shop{
     color: rgba(255, 255, 0, 0.7);
